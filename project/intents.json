@@ -1,0 +1,44 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","Good morning","Good afternoon","Good evening"],
+         "responses": ["Hi","Hello, thanks for your greeting", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "helpful", "Awesome thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure, I understand"],
+         "context": [""]
+        },
+		 {"tag": "identity",
+         "patterns": ["Who are you?","What is your name?"],
+         "responses": ["You can call me as Asura", "I am Asura"],
+         "context": [""]
+        },
+		 {"tag": "work",
+         "patterns": ["what you can do for me?", "what you know?", "what is the use of you?","How you can help me?"],
+         "responses": ["I am here to guide you for Agriculture related queries","Assist you for  Agriculture related queries"],
+         "context": [""]
+        },
+		 {"tag": "agriculture",
+         "patterns": ["Tell me about agriculture","Use of agriculture", "What is agriculture"],
+         "responses": ["Agriculture is the science or practice of farming, including cultivation of the soil for the growing of crops and the rearing of animals to provide food, wool, and other products","Agriculture is the science and art of cultivating plants and livestock","Agriculture definition, the science, art, or occupation concerned with cultivating land, raising crops, and feeding, breeding, and raising livestock; farming"],
+         "context": [""]
+        },
+		 {"tag": "rainfall",
+         "patterns": ["Which is the rainyfall pattern in india","How do rainfall pattern vary in india"],
+         "responses": ["Rainy season in India extends from June to mid- September.", "India is one of the ancient regions having different rainfall pattern which has developed into places with its own unique ecosystem"],
+         "context": [""]
+        }
+
+   ]
+}
